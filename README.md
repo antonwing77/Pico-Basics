@@ -4,6 +4,30 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **[CLICK HERE FOR PICO SIMULATOR](https://wokwi.com/projects/new/micropython-pi-pico)**
 
+## Demonstration Code 
+
+```python
+import machine
+import time
+
+servoPin=15
+servo=machine.PWM(machine.Pin(servoPin))
+servo.freq(50)
+
+potPin=26
+pot=machine.ADC(machine.Pin(potPin))
+
+while True:
+    potVal=pot.read_u16()
+    print(potVal)
+    angle=180/65535*potVal
+    writeVal=6553/180*angle + 1638
+    servo.duty_u16(int(writeVal))
+    time.sleep(.02)
+
+
+```
+
 ## Example Code
 
 ### Hello World
