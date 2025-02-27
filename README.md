@@ -42,6 +42,10 @@ print("Quotient:", quotient)
 
 ```
 
+## What are the pins on a Pico
+
+
+
 ### Blinking the Onboard LED
 
 ```python
@@ -58,3 +62,4 @@ while True:
     time.sleep(0.5)   # Wait for 0.5 seconds
 
 ```
+
