@@ -4,14 +4,6 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **[CLICK HERE FOR PICO SIMULATOR](https://wokwi.com/projects/new/micropython-pi-pico)**
 
-
-## Table of Contents
-
-- [Example Code](#example-code)
-  - [Hello World](#hello-world)
-  - [Basic Math with Variables](#basic-math-with-variables)
-  - [Blinking the Onboard LED](#blinking-the-onboard-led)
-
 ## Example Code
 
 ### Hello World
