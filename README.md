@@ -10,22 +10,15 @@ Today we will review what we learn last time and practice blinking the onboard l
 import machine
 import time
 
-servoPin=15
-servo=machine.PWM(machine.Pin(servoPin))
+servoPin = 15
+servo = machine.PWM(machine.Pin(servoPin))
 servo.freq(50)
 
-potPin=26
-pot=machine.ADC(machine.Pin(potPin))
-
 while True:
-    potVal=pot.read_u16()
-    print(potVal)
-    angle=180/65535*potVal
-    writeVal=6553/180*angle + 1638
+    angle=int(input('What Angle do You want to point the flashlight?  ')) 
+    writeVal=6553/180*angle+1638
     servo.duty_u16(int(writeVal))
-    time.sleep(.02)
-
-
+    time.sleep(0.02)
 ```
 
 ## Example Code
