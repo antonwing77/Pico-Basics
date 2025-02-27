@@ -44,7 +44,7 @@ print("Quotient:", quotient)
 
 ## What are the pins on a Pico
 
-
+![Alt Text](pico-pinout.png)
 
 ### Blinking the Onboard LED
 
