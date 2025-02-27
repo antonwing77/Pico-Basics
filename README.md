@@ -4,6 +4,8 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **[CLICK HERE FOR PICO SIMULATOR](https://wokwi.com/projects/new/micropython-pi-pico)**
 
+# **https://wokwi.com/projects/new/micropython-pi-pico**
+
 ## Demonstration Code 
 
 ```python
