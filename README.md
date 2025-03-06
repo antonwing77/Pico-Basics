@@ -78,11 +78,18 @@ while True:
 
 ![Alt Text](simplecircuit.png)
 
+### What is Thonny?
+
+1. Open Thonny on your laptop.
+2. Plug in your Raspberry Pi Pico
+3. Select the COM port for the Pico
+4. (If needed) ask for help downloading the correct library
+
 ### Combining Simple Circuits and Pico
 
 ![Alt Text](blink-externalLED.png)
 
-### Blinking an Xxternal LED Code
+### Code for Blinking an External LED
 
 ```python
 import machine
