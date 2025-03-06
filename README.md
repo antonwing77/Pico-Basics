@@ -74,3 +74,27 @@ while True:
 
 ```
 
+### Simply Circuit Review
+
+![Alt Text](pico-pinout.png)
+
+### Combining Simple Circuits and Pico
+
+![Alt Text](simplycircuit.png)
+
+### Blinking an Xxternal LED Code
+
+```python
+import machine
+import time
+
+led = machine.Pin(13, machine.Pin.OUT)
+
+while True:
+    led.value(1)      # Turn LED on
+    time.sleep(0.5)   # Wait for 0.5 seconds
+    led.value(0)      # Turn LED off
+    time.sleep(0.5)   # Wait for 0.5 seconds
+
+```
+
