@@ -76,7 +76,7 @@ while True:
 
 ### Simply Circuit Review
 
-![Alt Text](pico-pinout.png)
+![Alt Text](simplecircuit.png)
 
 ### Combining Simple Circuits and Pico
 
