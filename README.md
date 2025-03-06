@@ -80,7 +80,7 @@ while True:
 
 ### Combining Simple Circuits and Pico
 
-![Alt Text](simplecircuit.png)
+![Alt Text](blink-externalLED.png)
 
 ### Blinking an Xxternal LED Code
 
