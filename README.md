@@ -10,6 +10,10 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **https://thonny.org/**
 
+# **[CLICK HERE FOR Youtube Tutorials for everything PICO and MicroController related by Paul McWhorter](https://youtu.be/SL4_oU9t8Ss?si=PL5aMmQ7UfyJJpZM)**
+
+# **https://youtu.be/SL4_oU9t8Ss?si=PL5aMmQ7UfyJJpZM**
+
 ## Example Code
 
 ### Hello World
