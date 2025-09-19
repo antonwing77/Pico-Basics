@@ -10,23 +10,6 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **https://thonny.org/**
 
-## Demonstration Code 
-
-```python
-import machine
-import time
-
-servoPin = 15
-servo = machine.PWM(machine.Pin(servoPin))
-servo.freq(50)
-
-while True:
-    angle=int(input('What Angle do You want to point the flashlight?  ')) 
-    writeVal=6553/180*angle+1638
-    servo.duty_u16(int(writeVal))
-    time.sleep(0.02)
-```
-
 ## Example Code
 
 ### Hello World
