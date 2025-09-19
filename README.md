@@ -6,6 +6,10 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **https://wokwi.com/projects/new/micropython-pi-pico**
 
+#**[CLICK HERE FOR PICO/Python IDE](https://thonny.org/)**
+
+# **https://thonny.org/**
+
 ## Demonstration Code 
 
 ```python
