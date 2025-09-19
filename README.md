@@ -59,7 +59,7 @@ while True:
 
 ```
 
-### Simply Circuit Review
+### Simple Circuit Review
 
 ![Alt Text](simplecircuit.png)
 
