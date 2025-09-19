@@ -4,15 +4,9 @@ Today we will review what we learn last time and practice blinking the onboard l
 
 # **[CLICK HERE FOR PICO SIMULATOR](https://wokwi.com/projects/new/micropython-pi-pico)**
 
-# **https://wokwi.com/projects/new/micropython-pi-pico**
-
 # **[CLICK HERE FOR PICO/Python IDE](https://thonny.org/)**
 
-# **https://thonny.org/**
-
 # **[CLICK HERE FOR Youtube Tutorials for everything PICO and MicroController related by Paul McWhorter](https://youtu.be/SL4_oU9t8Ss?si=PL5aMmQ7UfyJJpZM)**
-
-# **https://youtu.be/SL4_oU9t8Ss?si=PL5aMmQ7UfyJJpZM**
 
 ## Example Code
 
