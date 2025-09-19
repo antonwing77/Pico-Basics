@@ -39,7 +39,7 @@ print("Quotient:", quotient)
 ```
 
 ## What are the pins on a Pico
-
+Rember we go off the GP# not the physical number of pins on the board when calling the pin number in python.
 ![Alt Text](pico-pinout.png)
 
 ### Blinking the Onboard LED
